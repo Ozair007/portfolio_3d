@@ -1,5 +1,6 @@
 import About from "./sections/About";
 import Contact from "./sections/Contact";
+import WorkExperience from "./sections/Experience";
 import Footer from "./sections/Footer";
 // import Clients from "./sections/Clients";
 import Hero from "./sections/Hero";
@@ -14,6 +15,7 @@ const App = () => {
       <About />
       <Projects />
       {/* <Clients /> */}
+      <WorkExperience />
       <Contact />
       <Footer />
     </main>

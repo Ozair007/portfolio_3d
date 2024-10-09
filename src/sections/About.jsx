@@ -69,7 +69,13 @@ const About = () => {
                 I currently reside in Istanbul, Türkiye, with remote work
                 available.
               </p>
-              <Button name="Contact me" isBeam containerClass="w-full mt-10" />
+              <a href="#contact" className="w-fit">
+                <Button
+                  name="Contact me"
+                  isBeam
+                  containerClass="w-full mt-10"
+                />
+              </a>
             </div>
           </div>
         </div>
