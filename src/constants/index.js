@@ -128,13 +128,13 @@ export const myProjects = [
     ],
   },
   {
-    title: "Bankista - Banks Management System",
-    desc: "Bankista is a modern banks management system in which users can manage multiple banks and their accounts.",
+    title: "Chloee - Financial Chatbot",
+    desc: "Chloee is a modern chatbot that provides personalized financial advice to users.",
     subdesc:
-      "With Bankista, users can manage their bank accounts in one place. The system is built with Next.js, Plaid and Prisma.",
-    href: "#",
+      "With Chloee, users can get personalized financial advice. The chatbot is built with React.js, Bootstrap, Express.js, OpenAI and MySQL.",
+    href: "https://chloee.xyz/",
     texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo3.png",
+    logo: "/assets/chloee.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
       background:
@@ -143,6 +143,43 @@ export const myProjects = [
       boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
     },
     spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "Bootstrap",
+        path: "assets/bootstrap.svg",
+      },
+      {
+        id: 3,
+        name: "Node/Express.js",
+        path: "/assets/node-js.svg",
+      },
+      {
+        id: 4,
+        name: "MySQL",
+        path: "/assets/mysql.svg",
+      },
+    ],
+  },
+  {
+    title: "Bankista - Banks Management System",
+    desc: "Bankista is a modern banks management system in which users can manage multiple banks and their accounts.",
+    subdesc:
+      "With Bankista, users can manage their bank accounts in one place. The system is built with Next.js, Plaid and Prisma.",
+    href: "#",
+    texture: "/textures/project/project4.mp4",
+    logo: "/assets/project-logo4.png",
+    logoStyle: {
+      backgroundColor: "#0E1F38",
+      border: "0.2px solid #0E2D58",
+      boxShadow: "0px 0px 60px 0px #2F67B64D",
+    },
+    spotlight: "/assets/spotlight4.png",
     tags: [
       {
         id: 1,
