@@ -22,8 +22,8 @@ const Hero = () => {
   return (
     <section className="min-h-screen w-full flex flex-col relative" id="home">
       <div className="w-full mx-auto flex flex-col sm:mt-30 mt-20 c-space gap-3">
-        <p className="sm:text-3xl text-2xl font-medium text-center text-white font-generalsans">
-          Hi, I&apos;m Ozair <span className="waving-hand">👋</span>
+        <p className="xl:text-4xl md:text-3xl text-xl font-medium text-center text-white font-generalsans lg:mt-5 mt-3">
+          Hi, I&apos;m Ozair Aziz<span className="waving-hand">👋</span>
         </p>
         <p className="hero_tag text-gray_gradient">
           Creating value through technology
