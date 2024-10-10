@@ -25,7 +25,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I&apos;m Ozair</p>
               <p className="grid-subtext">
-                With 2 years of experience, I have honed my skills in frontend
+                With 3+ years of experience, I have honed my skills in frontend
                 and backend development.
               </p>
             </div>
