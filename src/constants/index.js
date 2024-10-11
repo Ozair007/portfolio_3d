@@ -214,7 +214,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
       : isMobile
       ? [5, -5, 0]
       : isTablet
-      ? [5, -5, 0]
+      ? [7, -7, 0]
       : [9, -5.5, 0],
     reactLogoPosition: isSmall
       ? [4, 4, 0]
@@ -224,32 +224,42 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
       ? [9, 4, 0]
       : [12, 3, 0],
     ringPosition: isSmall
-      ? [-5, 7, 0]
+      ? [-8, 7, 0]
       : isMobile
       ? [-10, 10, 0]
       : isTablet
-      ? [-12, 10, 0]
+      ? [-15, 10, 5]
       : [-24, 10, 0],
     targetPosition: isSmall
-      ? [-5, -10, -10]
+      ? [-5, -7, -10]
       : isMobile
-      ? [-9, -10, -10]
+      ? [-9, -7, -10]
       : isTablet
-      ? [-11, -7, -10]
-      : [-13, -13, -10],
+      ? [-11, -10, -8]
+      : [-13, -13, -8],
   };
 };
 
 export const workExperiences = [
   {
     id: 1,
+    name: "Logicon",
+    pos: "Software Engineer",
+    duration: "2024",
+    title:
+      "Worked on different small projects and contributed to the development of various features. I also worked on improving the user experience with Next.js. And, have contributed in a live project built using Next.js, Nest.js and GraphQL, in which crypto currency and NFTs concepts were also used.",
+    icon: "/assets/framer.svg",
+    animation: "victory",
+  },
+  {
+    id: 2,
     name: "OnyxTec Software Company",
     pos: "Associate Software Engineer",
     duration: "2022 - 2024",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
-    animation: "victory",
+      "The software house which actually shaped my career in Web development. In here, I worked on projects using Mern stack with MySQL. I was also a part of a team that works on different projects and innovative ideas to improve the user experience and simultaneously create something unique.",
+    icon: "/assets/logo_onyxtec.png",
+    animation: "salute",
   },
   {
     id: 2,
@@ -257,8 +267,8 @@ export const workExperiences = [
     pos: "Web Developer",
     duration: "2021 - 2022",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+      "Started my career as Freelance Web developer, I built several features and small websites using HTML/CSS, React.js, and JavaScript. And, worked with Wix website builder as well.",
+    icon: "/assets/fiverr.webp",
     animation: "clapping",
   },
 ];
