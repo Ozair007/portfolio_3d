@@ -133,7 +133,7 @@ export const myProjects = [
     subdesc:
       "With Chloee, users can get personalized financial advice. The chatbot is built with React.js, Bootstrap, Express.js, OpenAI and MySQL.",
     href: "https://chloee.xyz/",
-    texture: "/textures/project/project3.mp4",
+    texture: "/textures/project/project5.mp4",
     logo: "/assets/chloee.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
@@ -263,12 +263,12 @@ export const workExperiences = [
   },
   {
     id: 2,
-    name: "Fiverr",
+    name: "Younite Private Limited",
     pos: "Web Developer",
     duration: "2021 - 2022",
     title:
-      "Started my career as Freelance Web developer, I built several features and small websites using HTML/CSS, React.js, and JavaScript. And, worked with Wix website builder as well.",
-    icon: "/assets/fiverr.webp",
+      "Started my career as Web developer, I built several features and small websites using HTML/CSS, React.js, and JavaScript. And, worked with Wix website builder as well to enhance and improve the user experience.",
+    icon: "/assets/project-logo5.png",
     animation: "clapping",
   },
 ];
