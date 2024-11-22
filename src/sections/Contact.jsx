@@ -74,14 +74,8 @@ const Contact = () => {
     <section className="c-space my-20" id="contact">
       {alert.show && <Alert {...alert} />}
 
-      <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <img
-          src="/assets/terminal.png"
-          alt="terminal-bg"
-          className="absolute inset-0 min-h-screen"
-        />
-
-        <div className="contact-container my-20 md:my-0">
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="contact-container my-20 md:my-0 py-5">
           <h3 className="head-text">Let&apos;s talk</h3>
           <p className="text-lg text-white-600 mt-3">
             Whether you&apos;re looking to build a new website, improve your

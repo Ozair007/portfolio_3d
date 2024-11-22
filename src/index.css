@@ -126,7 +126,10 @@ body {
 
   /* contact section */
   .contact-container {
-    @apply max-w-xl relative z-10 sm:px-10 px-5 mt-12;
+    @apply col-span-1 lg:col-span-2 rounded-lg bg-black-200 border border-black-300;
+  }
+  .contact-container {
+    @apply max-w-xl sm:px-10 px-5 mt-12;
   }
 
   .field-label {
